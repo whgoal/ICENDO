@@ -1,0 +1,539 @@
+/*------------------------------ 기본 */
+* { margin: 0; padding: 0; } 
+
+
+@font-face { font-family: 'Pretendard-Regular'; src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff'); font-weight: 400; font-style: normal; } 
+
+html { scroll-behavior: smooth; } 
+
+body { font-family: 'pretendard'; font-size: 24px; line-height: 40px; display: flex; background-color: #000000; color: white; overflow-x: hidden; -ms-overflow-style: none; cursor: url('../img/cursor.png'), auto; } 
+
+.title_en { font-weight: bold; font-size: 24px; color: #FF2EAB; font-family: 'Montserrat', sans-serif; } 
+
+.title_kor { font-weight: bold; font-size: 50px; line-height: 78px; } 
+
+.wrap { position: absolute; left: 50%; transform: translateX(-50%); } 
+
+ul { list-style: none; } 
+
+a:link,
+a:visited,
+a:hover,
+a:active { text-decoration: none; color: #ffffff; } 
+
+section { width: 100%; } 
+
+::-webkit-scrollbar { width: 10px; } 
+
+::-webkit-scrollbar-thumb { background-color: #FF2EAB}
+
+::-webkit-scrollbar-track { background-color: rgba(255, 255, 0, 0); } 
+
+
+
+/*------------------------------ header */
+header { width: 100%; position: fixed; font-family: 'Montserrat', sans-serif; font-size: 20px; font-weight: bold; z-index: 999999; height: 96px; transition: top 0.6s ease-in-out; top: 0; left: 0; } 
+
+.nav-up { top: -126px; } 
+
+header .logo { position: absolute; left: 99.77px; top: 98.32px; } 
+
+header .main_menu { margin-top: 91px; margin-right: 139px; float: right; } 
+
+header .main_menu ul { margin: 0 auto; text-align: center; display: inline; } 
+
+header .main_menu li { display: inline; margin-left: 64px; margin-top: 910px; } 
+
+main .team { color: rgba(255, 255, 255, 0.6); position: absolute; margin: 995px 0 0 1695px; font-family: 'Montserrat', sans-serif; font-size: 20px; font-weight: bold; align-items: center; text-align: right; } 
+
+main img { text-align: center; float: center; } 
+
+
+/*------------------------------ background */
+.background01 { margin-top: 1080px; width: 100%; height: 2866px; background-color: #FFFFFF; } 
+
+.background02 { position: absolute; height: 2453px; width: 100%; top: 15560px; background-color: #FF2EAB; } 
+
+.background03 { width: 100%; position: absolute; height: 3379px; top: 18011px; background-color: #ffffff; } 
+
+.background04 { width: 100%; position: absolute; height: 3970px; top: 24386px; background-color: #ffffff; } 
+
+.background05 { position: absolute; width: 100%; height: 1110px; top: 1841px; background: #F6F6F6; } 
+
+
+/*------------------------------ main */
+.main01 { position: absolute; left: 654px; top: 308px; } 
+
+.main02 { position: absolute; left: 146.41px; top: 868.54px; animation-iteration-count: infinite; } 
+
+.main03 { position: absolute; left: 1054.54px; top: 275.62px; animation-iteration-count: infinite; } 
+
+.main04 { position: absolute; left: 358.2px; top: 412.13px; animation-iteration-count: infinite; } 
+
+.main05 { position: absolute; left: 1383.3px; top: 489.92px; } 
+
+.main06 { position: absolute; left: 502.31px; top: 786.45px; } 
+
+.main07 { position: absolute; left: 1218.65px; top: 900.42px; } 
+
+
+/*------------------------------ overview */
+.overview .overview_background { z-index: -1; position: absolute; top: 1080px; height: 2868px; width: 100%; } 
+
+.overview .title_en { margin: 146px 0 0 100px; } 
+
+.overview .title_kor { position: absolute; width: 1208px; left: 356.28px; top: 1387px; font-weight: 700; font-size: 65px; align-items: center; text-align: center; color: #000000; } 
+
+.overview span { color: #FF2EAB; } 
+
+.overview p { position: absolute; width: 912.56px; height: 120px; left: 503.72px; top: 1494.12px; text-align: center; color: #000000; } 
+
+
+/* ------------------------------- our_mission */
+.our_mission .title_en { position: absolute; width: 1650px; height: 18px; left: 100px; top: 1987px; } 
+
+.our_mission .title_kor { position: absolute; width: 521px; height: 58px; left: 97px; top: 2065px; color: #000000; } 
+
+.our_mission_p { color: #000000; position: absolute; width: 991px; height: 112px; left: 829px; top: 2055px; } 
+
+.our_mission img { position: absolute; left: 415px; top: 2339px; } 
+
+
+/* ------------------------------- about */
+.about .title_en { position: absolute; width: 96.61px; height: 32px; left: 1121px; top: 3283px; } 
+
+.about .title_kor { position: absolute; width: 653px; height: 56.48px; left: 1121px; top: 3367.57px; color: #000000; } 
+
+.about p { color: #000000; position: absolute; width: 699px; height: 160px; left: 1121px; top: 3458px; } 
+
+.about img { position: absolute; width: 735.1px; height: 996px; left: 100px; top: 2952px; } 
+
+
+/* ------------------------------- project_goal */
+.project_goal P { margin: 9px 0 0 0; width: 700px; } 
+
+.project_goal .title_en { position: absolute; width: 195px; height: 20px; left: 100px; top: 4375.99px; } 
+
+.project_goal .title_kor { position: absolute; width: 664px; height: 150px; left: 100.28px; top: 4442px; } 
+
+.project_goal .project_goal_p { position: absolute; width: 684px; height: 120px; left: 100.28px; top: 4639px; } 
+
+.project_goal .project_goal_p01 { position: absolute; width: 193px; height: 29px; left: 1301.28px; top: 4730px; font-size: 24px; line-height: 28px; text-align: center; color: #FF2EAB; } 
+
+.project_goal img { position: absolute; width: 660px; height: 254px; left: 1067.28px; top: 4442px; } 
+
+.project_goal span { color: #FF2EAB; } 
+
+
+/* ------------------------------- user_research */
+.user_research { margin-top: 3800px; } 
+
+.user_research .title_en { margin: 252px 0 0 0; text-align: center; } 
+
+.user_research p { margin: 32px 0 0 0; width: 645px; text-align: center; position: absolute; left: 50%; transform: translateX(-50%); } 
+
+.user_research_card { margin: 257px 0 0 0; text-align: center; } 
+
+.user_research_card img { padding: 26px; display: inline; } 
+
+
+/* ------------------------------- strategy */
+.strategy .title_en { margin: 300px 0 0 100px; z-index: 9999; } 
+
+.strategy p { margin: 25px 0 0 100px; width: 438px; line-height: 40px; } 
+
+.strategy .strategy_funtion p { width: 885px; display: block; font-size: 45px; font-family: 'Montserrat', sans-serif; } 
+
+.strategy .strategy_funtion { position: absolute; width: 885px; height: 306.95px; left: 829px; top: 6310px; font-weight: 700; } 
+
+.strategy .strategy_funtion sup { color: #FF2EAB; font-size: 30px; } 
+
+
+/* ------------------------------- video */
+.video .title_en { margin: 455px 0 0 100px; } 
+
+.video iframe { width: 1920px; height: 916px; margin: 64px 0 0 0; } 
+
+
+/* ------------------------------- content */
+.content { margin: 0 0 0 100px; } 
+
+.content .content_main { width: 409px; display: inline-block; } 
+
+.content .title_en { position: absolute; width: 146.26px; height: 33px; left: 99.74px; top: 8165.21px; } 
+
+.content .title_en01 { color: #FFFFFF; font-weight: bold; font-size: 24px; font-family: 'Montserrat', sans-serif; font-weight: 500; font-size: 24px; } 
+
+.content .content_sub_eng01 { font-size: 45px; font-family: 'Montserrat', sans-serif; font-weight: 600; margin: 115px 0 100px 0; } 
+
+.content .title_en02 { color: #FFFFFF; margin: 0 0 0 174px; font-weight: bold; font-size: 24px; font-family: 'Montserrat', sans-serif; font-weight: 500; font-size: 24px; } 
+
+.content .content_sub_eng02 { font-size: 45px; font-family: 'Montserrat', sans-serif; font-weight: 600; margin: 97px 0 79px 174px; width: 409px; } 
+
+.content .content_community01 p { margin: 97px 0 79px 174px; } 
+
+.content .content_community01 { width: 570px; display: inline-block; } 
+
+.content .title_en03 { color: #FFFFFF; margin: 0 0 0 227px; font-weight: bold; font-size: 24px; font-family: 'Montserrat', sans-serif; font-weight: 500; font-size: 24px; } 
+
+.content .content_sub_eng03 { font-size: 45px; font-family: 'Montserrat', sans-serif; width: 282px; font-weight: 600; line-height: 60px; margin: 69px 0 51px 307px; } 
+
+.content .content_community02 p { margin-left: 213px; } 
+
+.content .content_community02 { width: 640px; display: inline-block; margin-top: 417px; } 
+
+
+/* ------------------------------- slogan */
+.slogan video { position: absolute; width: 1920px; height: 524.72px; left: 0px; top: 9090px; z-index: -1; } 
+
+.slogan .title_en { position: absolute; width: 108px; left: 906px; top: 9240px; text-align: center; } 
+
+.slogan .title_slogan { position: absolute; width: 774px; height: 126px; left: 573px; top: 9304px; font-family: 'Montserrat'; font-style: normal; font-weight: 600; font-size: 65px; line-height: 77px; text-align: center; color: #FFFFFF; } 
+
+
+/* ------------------------------- design concept */
+.design_concept { margin: 1150px 0 0 0; } 
+
+.design_concept .title_en { margin-left: 100px; } 
+
+.design_concept .title_kor { margin: 53px 0 0 100px; width: 429px; font-weight: 700; line-height: 87px; font-size: 60px; } 
+
+.design_concept p { position: absolute; width: 863px; left: 975px; top: 10067.49px; font-weight: 400; font-size: 24px; line-height: 40px; } 
+
+.keywords01 { position: absolute; left: 318px; top: 10340.21px; } 
+
+.keywords02 { position: absolute; left: 557px; top: 10519.21px; } 
+
+.keywords03 { position: absolute; left: 278px; top: 10697.21px; } 
+
+
+/* ------------------------------- naming_logo */
+.naming_logo { margin: 929px 0 0 0; } 
+
+.naming_logo .title_en01 { font-weight: bold; font-size: 24px; color: #FF2EAB; font-family: 'Montserrat', sans-serif; position: absolute; left: 100px; top: 11138.32px; } 
+
+.naming_logo .title_en02 { font-weight: bold; font-size: 24px; color: #FF2EAB; font-family: 'Montserrat', sans-serif; position: absolute; left: 975px; top: 11136.82px; } 
+
+.naming { position: absolute; width: 685px; left: 100px; top: 11192.34px; } 
+
+.logo_introduce { position: absolute; width: 660px; left: 975px; top: 11192.34px; } 
+
+.naming_i { position: absolute; width: 960px; height: 549.21px; top: 11403px; } 
+
+.introduce_logo_i { position: absolute; width: 985.21px; height: 549.21px; left: 940px; top: 11403px; } 
+
+
+/* ------------------------------- icon */
+.hov01 .animated { display: none; } 
+
+.hov01:hover .animated { display: inline; } 
+
+.hov02 .animated { display: none; } 
+
+.hov02:hover .animated { display: inline; } 
+
+.hov03 .animated { display: none; } 
+
+.hov03:hover .animated { display: inline; } 
+
+.hov04 .animated { display: none; } 
+
+.hov04:hover .animated { display: inline; } 
+
+.hov05 .animated { display: none; } 
+
+.hov05:hover .animated { display: inline; } 
+
+.hov06 .animated { display: none; } 
+
+.hov06:hover .animated { display: inline; } 
+
+.hov07 .animated { display: none; } 
+
+.hov07:hover .animated { display: inline; } 
+
+.hov08 .animated { display: none; } 
+
+.hov08:hover .animated { display: inline; } 
+
+.hov09 .animated { display: none; } 
+
+.hov09:hover .animated { display: inline; } 
+
+.hov10 .animated { display: none; } 
+
+.hov10:hover .animated { display: inline; } 
+
+.hov11 .animated { display: none; } 
+
+.hov11:hover .animated { display: inline; } 
+
+.hov12 .animated { display: none; } 
+
+.hov12:hover .animated { display: inline; } 
+
+.hov13 .animated { display: none; } 
+
+.hov13:hover .animated { display: inline; } 
+
+.hov14 .animated { display: none; } 
+
+.hov14:hover .animated { display: inline; } 
+
+.hov15 .animated { display: none; } 
+
+.hov15:hover .animated { display: inline; } 
+
+.icon .title_en { margin: 2007px 0 33px 100px; } 
+
+.icon p { margin: 0 0 0 100px; width: 682px; } 
+
+.icon img { position: absolute; } 
+
+.icon .main_icon_g { width: 404px; height: 404px; left: 249px; top: 12552.21px; } 
+
+.icon .icon01 { left: 988px; top: 12500.51px; } 
+
+.icon .icon02 { left: 1181.71px; top: 12500.21px; } 
+
+.icon .icon03 { left: 1357.84px; top: 12503.52px; } 
+
+.icon .icon04 { left: 1548.86px; top: 12500.36px; } 
+
+.icon .icon05 { left: 1732.65px; top: 12507.72px; } 
+
+.icon .icon06 { left: 988.35px; top: 12699.47px; } 
+
+.icon .icon07 { left: 1163.69px; top: 12712.47px; } 
+
+.icon .icon08 { left: 1367.63px; top: 12699.23px; } 
+
+.icon .icon09 { left: 1542.45px; top: 12705.83px; } 
+
+.icon .icon10 { left: 1727.08px; top: 12712.17px; } 
+
+.icon .icon11 { left: 988.37px; top: 12898.68px; } 
+
+.icon .icon12 { left: 1172.86px; top: 12898.66px; } 
+
+.icon .icon13 { left: 1357.86px; top: 12892.57px; } 
+
+.icon .icon14 { left: 1547.97px; top: 12892.57px; } 
+
+.icon .icon15 { left: 1737.97px; top: 12903.8px; } 
+
+
+/* ------------------------------- typography_color */
+.typography_color .title_en01 { font-weight: bold; font-size: 24px; color: #FF2EAB; font-family: 'Montserrat', sans-serif; position: absolute; left: 100px; top: 13258.21px; } 
+
+.typography_color .title_en02 { font-weight: bold; font-size: 24px; color: #FF2EAB; font-family: 'Montserrat', sans-serif; position: absolute; left: 975px; top: 13249.21px; } 
+
+.typo_p { position: absolute; width: 659px; left: 100px; top: 13310.97px; } 
+
+.color_p { position: absolute; width: 650px; left: 975px; top: 13310.97px; } 
+
+.typography_color .typo { position: absolute; width: 1698px; left: 100px; top: 13524.17px; } 
+
+.typography_color .color { position: absolute; width: 1920px; top: 13958.6px; } 
+
+
+/* ------------------------------- design_element */
+.design_element .title_en { margin: 2152px 0 31px 100px; } 
+
+.design_element p { margin: 0 0 0 100px; } 
+
+.design_element .design_element_background { margin: 31px 0 0 124px; } 
+
+.design_element .design_element01 { position: absolute; left: 667px; top: 14715px}
+
+.design_element .design_element02 { position: absolute; left: 1399px; top: 14621px; } 
+
+.design_element .design_element03 { position: absolute; left: -98px; top: 14880px; z-index: -1; } 
+
+.design_element .design_element04 { position: absolute; left: 392px; top: 14839.08px; } 
+
+.design_element .design_element05 { position: absolute; left: 1035px; top: 14906.82px; z-index: -1; } 
+
+.design_element .design_element06 { position: absolute; left: 1290.08px; top: 15128.74px; z-index: -1; } 
+
+.design_element .design_element07 { position: absolute; left: 1756px; top: 14801.82px; z-index: -1; } 
+
+
+/* ------------------------------- app01 */
+.app { margin-top: 247px; height: 2364px; } 
+
+.app01_i { position: absolute; left: 179px; top: 15698px; } 
+
+.app .title_en { color: #ffffff; margin: 157px 0 0 100px; } 
+
+.app .title_kor { margin: 43px 0 55px 100px; width: 512px; } 
+
+.app p { margin: 0 0 0 100px; width: 551px; } 
+
+.app01_text { padding-top: 1px; } 
+
+
+/* ------------------------------- app02 */
+.app02 .title_en { color: #ffffff; margin-top: 1253px; margin: 1153px 0 0 825px; } 
+
+.app02 .title_kor { width: 956px; margin-top: 48px; position: absolute; left: 50%; transform: translateX(-50%); } 
+
+.app02_0 { margin: 157px 0 0 746px; position: absolute; } 
+
+.app02_1 { position: absolute; width: 478px; height: 120px; left: 1019px; top: 17601px; } 
+
+.app02_2 { position: absolute; width: 392px; height: 266px; left: 457px; top: 18200px; } 
+
+.app02 .app02_p1 { position: absolute; width: 410px; height: 46px; left: 170px; top: 17833px; font-size: 20px; line-height: 26px; color: #000000; } 
+
+.app02 .app02_p2 { position: absolute; width: 473px; height: 18px; left: 1130px; top: 17734px; font-family: 'Pretendard'; font-style: normal; font-weight: 400; font-size: 20px; line-height: 32px; color: #000000; } 
+
+.app02 .app02_p3 { position: absolute; width: 285px; height: 46px; left: 407px; top: 18465px; font-family: 'Pretendard'; font-style: normal; font-weight: 400; font-size: 20px; line-height: 26px; color: #000000; } 
+
+
+/* ------------------------------- app03 */
+.app03 { height: 3380px;}
+
+.app03 .app03_1 { position: absolute; width: 366.43px; height: 791.56px; left: 245.72px; top: 18781.21px; border: solid #F4F4F4 12px; border-radius: 40px; box-shadow: 5px 5px 20px #00000030; } 
+
+.app03 .app03_2 { position: absolute; width: 368px; height: 796px; left: 1266.72px; top: 18779.21px; border-radius: 40px; } 
+
+.app03 .app03_3 { position: absolute; width: 368px; height: 796px; left: 1662.72px; top: 18779.21px; border-radius: 40px; } 
+
+.app03 .title_en { position: absolute; left: 683px; top: 19245px; } 
+
+.app03 .title_kor { position: absolute; left: 683px; top: 19297px; color: #000000; } 
+
+.app03 p { position: absolute; width: 478px; left: 683px; top: 19485px; color: #000000; } 
+
+
+/* ------------------------------- app04 */
+.app04 .app04_1 { position: absolute; width: 387px; height: 836px; left: 391.72px; top: 20027.21px; border: solid #F4F4F4 12px; border-radius: 40px; box-shadow: 5px 5px 20px #00000030; } 
+
+.app04 .app04_2 { position: absolute; left: 829px; top: 20253.21px; } 
+
+.app04 .title_en { position: absolute; width: 187px; height: 20px; left: 1267px; top: 20733px; } 
+
+.app04 .title_kor { position: absolute; width: 438px; height: 128px; left: 1267px; top: 20791px; color: #000000; } 
+
+.app04 p { position: absolute; width: 600px; height: 48px; left: 1267px; top: 20994px; color: #000000; } 
+
+.app04 .app04_3 { position: absolute; width: 370px; height: 162px; left: 1266.72px; top: 20517.21px; } 
+
+
+/* ------------------------------- community_feed */
+.community_feed { height: 2991px; } 
+
+.community_feed .title_en { position: absolute; width: 251px; height: 19px; left: 835px; top: 21593px; text-align: center; } 
+
+.community_feed .title_kor { position: absolute; width: 513px; height: 132px; left: 704px; top: 21653px; text-align: center; } 
+
+.community_feed p { position: absolute; width: 474px; height: 80px; left: 723px; top: 21840.21px; text-align: center; } 
+
+.community_feed .app05 { position: absolute; left: 736px; top: 22089.21px; } 
+
+.community_feed_background { position: absolute; left: -33.56px; top: 21987.85px; } 
+
+.community_feed_sticker01 { position: absolute; left: 246px; top: 22354.21px; } 
+
+.community_feed_sticker02 { position: absolute; left: 1260.24px; top: 21806px; } 
+
+
+/* ------------------------------- lyrics */
+.lyrics { height: 3969px; z-index: 1; } 
+
+.lyrics .title_en { position: absolute; width: 92px; height: 20px; left: 100px; top: 23389px; } 
+
+.lyrics .title_kor { position: absolute; width: 410px; height: 134px; left: 100px; top: 23462px; } 
+
+.lyrics p { position: absolute; width: 549px; height: 69px; left: 100px; top: 23641px; } 
+
+.lyrics .lyrics_app01 { position: absolute; left: 246px; top: 23849.21px; } 
+
+.lyrics .lyrics_app02 { position: absolute; left: 757px; top: 23996.21px; } 
+
+.lyrics .lyrics_app03 { position: absolute; left: 1284px; top: 24102.21px; } 
+
+
+/* ------------------------------- music keyowrd */
+.music_keyword .title_en { position: absolute; left: 1171px; top: 25328px; } 
+
+.music_keyword .title_kor { position: absolute; left: 1174px; top: 25398px; color: #000000; } 
+
+.music_keyword p { position: absolute; width: 543px; left: 1171px; top: 25576px; color: #000000; } 
+
+.music_keyword_i { position: absolute; left: -181.91px; top: 25822.21px; } 
+
+.music_keyword_app01 { position: absolute; left: 195px; top: 25696.21px; } 
+
+.music_keyword_app02 { position: absolute; width: 390.14px; height: 844px; left: 650.57px; top: 25518.11px; border: solid #F4F4F4 12px; border-radius: 40px; box-shadow: 5px 5px 20px #00000030; } 
+
+
+/* ------------------------------- my location music */
+.my_location_music .title_en { position: absolute; left: 817px; top: 26892px; } 
+
+.my_location_music .title_kor { position: absolute; width: 450px; left: 706px; top: 26954px; text-align: center; color: #000000; } 
+
+.my_location_music p { position: absolute; width: 409px; left: 756px; top: 27145px; text-align: center; color: #000000; } 
+
+.my_location_music_card { position: absolute; left: 1142.12px; top: 27322.67px; z-index: 1; } 
+
+.myi01 { position: absolute; left: 39px; top: 27207px; } 
+
+.myi02 { position: absolute; left: 462px; top: 27418px; } 
+
+.myi03 { position: absolute; left: 1546px; top: 27182px; } 
+
+.myi04 { position: absolute; left: 1806px; top: 27394px; } 
+
+.images-line { width: fit-content; display: flex; padding: 24px 0; position: absolute; top: 27582px; } 
+
+.rolling { backface-visibility: hidden; transform: translateX(0); } 
+
+.images-line .rolling-image { display: block; width: 350px; margin: 0 12px; } 
+
+
+/* ------------------------------- team */
+.line { position: absolute; left: 582.26px; top: 30118px; } 
+
+.team .button { position: absolute; width: 151px; height: 48px; left: 884px; top: 29825px; } 
+
+.team .thanksto { position: absolute; left: 777px; top: 29908px; font-weight: 700; text-align: center; } 
+
+.team .team_title { position: absolute; left: 292px; top: 30054px; width: 167px; height: 39px; font-weight: 700; } 
+
+.name01 { position: absolute; left: 598.26px; top: 30028px; } 
+
+.name02 { position: absolute; left: 816.26px; top: 30028px; } 
+
+.name03 { position: absolute; left: 1034.26px; top: 30028px; } 
+
+.name04 { position: absolute; left: 1252.26px; top: 30028px; } 
+
+.name05 { position: absolute; left: 1474.26px; top: 30028px; } 
+
+.part01 { position: absolute; left: 592.26px; top: 30160px; } 
+
+.part02 { position: absolute; left: 803.26px; top: 30160px; } 
+
+.part03 { position: absolute; left: 1021.26px; top: 30160px; } 
+
+.part04 { position: absolute; left: 1239.26px; top: 30160px; } 
+
+.part05 { position: absolute; left: 1454.26px; top: 30160px; } 
+
+.portfolio01 { position: absolute; left: 580.26px; top: 30249px; } 
+
+.portfolio02 { position: absolute; left: 798.26px; top: 30249px; } 
+
+.portfolio03 { position: absolute; left: 1016.26px; top: 30249px; } 
+
+.portfolio04 { position: absolute; left: 1234.26px; top: 30249px; } 
+
+.portfolio05 { position: absolute; left: 1457.26px; top: 30249px; } 
+
+
+/* ------------------------------- footer */
+footer .source { position: absolute; width: 500px; height: 69px; right: 100px; top: 30533px; font-size: 20px; line-height: 30px; display: flex; text-align: right; color: #A8A8A8; } 
+
+footer .copyright { top: 100px; right: 20px; width: 333px; position: absolute; padding-bottom: 84px; color: #FFFFFF; } 
